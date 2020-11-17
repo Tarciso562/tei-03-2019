@@ -18,7 +18,7 @@ echo -e "Removendo software desnecessários"
     Apt -y autoremove
     apt -y autoclean
     apt  clean
-#echo -e "Sistema atualizado, pressione <ENTER> para o reboot"
-#read
-#sleep 5 seg.
-#reboot
+echo -e "Sistema atualizado, pressione <ENTER> para o reboot"
+read
+sleep 5 
+reboot
