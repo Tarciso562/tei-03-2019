@@ -20,5 +20,5 @@ echo -e "Removendo software desnecessários"
     apt  clean
 echo -e "Sistema atualizado, pressione <ENTER> para o reboot"
 read
-sleep 5 seg.
+sleep 5 
 reboot
